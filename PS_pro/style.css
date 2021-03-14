@@ -1,0 +1,304 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&display=swap");
+html,
+body {
+  overflow: scroll;
+  width: 100%;
+  height: 3000px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body {
+  position: relative;
+  background-color: #fcf6ba;
+  box-sizing: border-box;
+  border-top: solid 30px #116584;
+  border-bottom: solid 30px #116584;
+  overflow: hidden;
+}
+
+.top {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  background-color: #3e6e7f;
+  color: #ffffff;
+  border-radius: 30px 30px 225px 30px;
+  margin-top: -100px;
+  margin-left: -75px;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.top h3 {
+  margin-left: 100px;
+  margin-top: 100px;
+  font-size: 25px;
+  width: 100px;
+  line-height: 60px;
+}
+.top h3 span {
+  font-size: 5vw;
+}
+
+.screen {
+  width: 100%;
+  height: 100px;
+  left: 100px;
+}
+
+.img1 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 8px white solid;
+  top: 150px;
+  left: 5%;
+  width: 60vw;
+}
+
+.img2 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 8px white solid;
+  top: 150px;
+  left: 5%;
+  width: 60vw;
+}
+
+.img3 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 8px white solid;
+  top: 150px;
+  left: 5%;
+  width: 60vw;
+}
+
+.namecard {
+  position: fixed;
+  width: 20vw;
+  height: 50vw;
+  right: 5vw;
+  bottom: 3vw;
+  padding: 0px 20px 30px 20px;
+  overflow: hidden;
+  background-color: #3e6e7f;
+  color: #fff;
+  border: solid 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 20px 25px 15px -15px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: 微軟正黑體;
+  transition: 0.5s;
+}
+.namecard hr {
+  border-color: #fff;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+.namecard h2 {
+  font-size: 25px;
+}
+.namecard span {
+  font-size: 18px;
+}
+.namecard h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.namecard:hover {
+  transform: translate(-2vw, -2vw);
+  box-shadow: -20px -25px 15px -15px rgba(0, 0, 0, 0.5);
+}
+
+.allbub {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+  z-index: -3;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #333;
+}
+@keyframes falling {
+  0%, 100% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  0% {
+    transform: translate(100%, 0px);
+  }
+  100% {
+    transform: translate(0px, 100%);
+  }
+}
+.allbub [class*=bub] {
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  animation: falling 2s infinite;
+}
+.allbub .bub1 {
+  position: absolute;
+  left: 43.7685772576%;
+  top: 81.0788841616%;
+  animation-delay: -0.1s;
+}
+.allbub .bub2 {
+  position: absolute;
+  left: 57.6149900124%;
+  top: 47.6524762802%;
+  animation-delay: -0.2s;
+}
+.allbub .bub3 {
+  position: absolute;
+  left: 38.3721301277%;
+  top: 83.4445699634%;
+  animation-delay: -0.3s;
+}
+.allbub .bub4 {
+  position: absolute;
+  left: 11.9914137051%;
+  top: 43.6226741749%;
+  animation-delay: -0.4s;
+}
+.allbub .bub5 {
+  position: absolute;
+  left: 1.463680061%;
+  top: 75.7975396536%;
+  animation-delay: -0.5s;
+}
+.allbub .bub6 {
+  position: absolute;
+  left: 37.6405805024%;
+  top: 57.5279756118%;
+  animation-delay: -0.6s;
+}
+.allbub .bub7 {
+  position: absolute;
+  left: 55.6529142339%;
+  top: -4.2368763019%;
+  animation-delay: -0.7s;
+}
+.allbub .bub8 {
+  position: absolute;
+  left: 6.5835169127%;
+  top: 7.1054653481%;
+  animation-delay: -0.8s;
+}
+.allbub .bub9 {
+  position: absolute;
+  left: 88.9361305613%;
+  top: 47.0981533937%;
+  animation-delay: -0.9s;
+}
+.allbub .bub10 {
+  position: absolute;
+  left: 69.2982174633%;
+  top: 23.5554303639%;
+  animation-delay: -1s;
+}
+.allbub .bub11 {
+  position: absolute;
+  left: 82.9988550596%;
+  top: 56.9498444696%;
+  animation-delay: -1.1s;
+}
+.allbub .bub12 {
+  position: absolute;
+  left: 74.2151749654%;
+  top: 72.3968129168%;
+  animation-delay: -1.2s;
+}
+.allbub .bub13 {
+  position: absolute;
+  left: 89.61117353%;
+  top: 32.6114252831%;
+  animation-delay: -1.3s;
+}
+.allbub .bub14 {
+  position: absolute;
+  left: 28.2219023506%;
+  top: 0.3500668375%;
+  animation-delay: -1.4s;
+}
+.allbub .bub15 {
+  position: absolute;
+  left: 67.9798061683%;
+  top: 18.077239589%;
+  animation-delay: -1.5s;
+}
+.allbub .bub16 {
+  position: absolute;
+  left: 70.5716897484%;
+  top: 2.7688244951%;
+  animation-delay: -1.6s;
+}
+.allbub .bub17 {
+  position: absolute;
+  left: 19.4086074008%;
+  top: 81.7794504371%;
+  animation-delay: -1.7s;
+}
+.allbub .bub18 {
+  position: absolute;
+  left: 4.4035904899%;
+  top: 83.9691387533%;
+  animation-delay: -1.8s;
+}
+.allbub .bub19 {
+  position: absolute;
+  left: 34.6049260204%;
+  top: 23.7592796574%;
+  animation-delay: -1.9s;
+}
+.allbub .bub20 {
+  position: absolute;
+  left: 98.4275826914%;
+  top: 2.7279689186%;
+  animation-delay: -2s;
+}
+
+@keyframes title {
+  0% {
+    margin-top: -200px;
+    margin-left: -300px;
+  }
+  50% {
+    margin-top: -75px;
+    margin-left: -50px;
+  }
+  100% {
+    margin-top: -100px;
+    margin-left: -75px;
+  }
+}
+.top {
+  animation-name: title;
+  animation-duration: 1.5s;
+}
+
+@keyframes back {
+  0% {
+    background-color: #ffa54f;
+  }
+  25% {
+    background-color: #8b5a2b;
+  }
+  50% {
+    background-color: #ee7621;
+  }
+  75% {
+    background-color: #ff3030;
+  }
+  100% {
+    background-color: #8b1a1a;
+  }
+}
